@@ -1,0 +1,23 @@
+/* Custom CSS */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #007bff;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #f8f9fa;
+}
+
+@media (max-width: 576px) {
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+}
