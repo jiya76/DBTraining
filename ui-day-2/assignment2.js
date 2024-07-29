@@ -106,24 +106,6 @@ console.log(counter3());
 console.log(counter3());
 console.log(counter3()); 
 
-// Task 10: Calculate Total Score
-
-function getTotalScore(objects) {
-    let total = 0; 
-    objects.forEach(obj => total += obj.score);
-    return total;
-}
-
-const scoreList = [
-    { score: 85 },
-    { score: 92 },
-    { score: 76 },
-    { score: 88 },
-    { score: 95 }
-];
-
-const totalScore = getTotalScore(scoreList);
-console.log('Total Score:', totalScore); 
 
 // Task 9: Create a Promise-Based Calculator
 
@@ -163,3 +145,23 @@ calculatorPromise(10, 2, 'exponent')
 calculatorPromise(5, 4, 'subtraction')
     .then(result => console.log('Result of 5-4:', result))
     .catch(error => console.error('Error:', error.message));
+
+    
+// Task 10: Calculate Total Score
+
+function getTotalScore(objects) {
+    let total = 0; 
+    objects.forEach(obj => total += obj.score);
+    return total;
+}
+
+const scoreList = [
+    { score: 85 },
+    { score: 92 },
+    { score: 76 },
+    { score: 88 },
+    { score: 95 }
+];
+
+const totalScore = getTotalScore(scoreList);
+console.log('Total Score:', totalScore); 
